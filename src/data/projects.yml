@@ -1,0 +1,41 @@
+- meta:
+    id: 1
+    start: Apr 2020
+    end: May 2020
+  name: Run It Up
+  description: A personal spin-off of Uno, inspired by the onset of the global lockdown
+- meta:
+    id: 2
+    start: Jan 2020
+    end: Feb 2020
+  name: Baby Faith
+  description: A conversational chatbot by Ryan Kuo, commissioned by Rhizome and Jigsaw
+- meta:
+    id: 3
+    start: Mar 2019
+    end: Jun 2020
+  name: Summer Smash
+  description: The official festival app for The Summer Smash’s 40,000 attendees
+- meta:
+    id: 4
+    start: Mar 2017
+    end: Present
+  name: Lyrical Lemonade
+  description: The official home of Lyrical Lemonade’s blog
+- meta:
+    id: 5
+    start: Aug 2020
+    end: Dec 2020
+  name: Hartford
+  description: The website for the Hartford lifestyle brand
+- meta:
+    id: 6
+    start: Aug 2020
+    end: Dec 2020
+  name: Cisco Systems, Inc.
+  description: The website for the Hartford lifestyle brand
+  projects:
+    - name: Momentum UI
+      description: This is a project for momentum
+    - name: Cisco Headsets App
+      description: This is a project for the cisco headsets app
