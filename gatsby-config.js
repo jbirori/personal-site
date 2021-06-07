@@ -5,10 +5,29 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: 'Jeff Birori',
+    // titleTemplate: "%s · The Real Hero",
+    description: 'Jeff Birori is a software engineer based in San Francisco, CA.',
+    url: 'https://www.jeffbirori.com', // No trailing slash allowed!
+    image: '', // Path to your image you placed in the 'static' folder
+    twitterUsername: '@jeffreybirori',
+  },
   plugins: [
     'gatsby-transformer-yaml',
+    'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-styled-components`,
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'rubik\:600,700,800',
+          'Poppins\:300,400',
+        ],
+        display: 'swap',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-styled-components',
       options: {
         // Add any options here
       },
