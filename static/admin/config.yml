@@ -40,7 +40,7 @@ collections:
     files:
       - name: about
         label: About
-        file: content/about
+        file: content/about/about.md
         fields:
           - { name: name, label: Name, default: John Smith }
           - { name: bio, label: Bio, widget: text }
