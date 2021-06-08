@@ -2,6 +2,7 @@
 title: Run It Up
 start: Apr 2020
 end: May 2020
+path: run-it-up
 professional: true
 summary: A digital spin-off of Uno, inspired by the onset of the global lockdown
 description: A personal spin-off of Uno, inspired by the onset of the global lockdown
