@@ -1,0 +1,28 @@
+backend:
+  name: github
+  repo: jbirori/personal-site
+  branch: main
+
+media_folder: content/assets
+public_folder: /assets
+
+collections:
+  - name: projects
+    label: Projects
+    folder: content/projects
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: start, label: Start }
+      - { name: end, label: End }
+      - { name: professional, label: Professional, widget: boolean }
+      - { name: summary, label: Summary, widget: text }
+      - { name: description, label: Description, widget: text }
+      - name: subProjects
+        label: Sub Projects
+        widget: list
+        fields:
+          - { name: title, label: Title }
+          - { name: description, label: Description, widget: text }
+          - { name: websiteUrl, label: Website URL }
+          - { name: tools, label: Tools }
