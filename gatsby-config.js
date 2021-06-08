@@ -80,13 +80,5 @@ module.exports = {
         // ignore: [`**/\.*`], // ignore files starting with a dot
       },
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'data',
-        path: `${__dirname}/content/about/`,
-        // ignore: [`**/\.*`], // ignore files starting with a dot
-      },
-    },
   ],
 };
