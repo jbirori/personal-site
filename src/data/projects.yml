@@ -1,0 +1,116 @@
+- meta:
+    type: personal
+    id: 1
+    start: Apr 2020
+    end: May 2020
+  name: Run It Up
+  summary: A digital spin-off of Uno, inspired by the onset of the global lockdown
+  description: A personal spin-off of Uno, inspired by the onset of the global lockdown
+  subProjects:
+    - name: RunItUp.com
+      description: Jeff built and designed and built the Run It Up web app from the ground up, utilizing socket.io to communicate game actions in real time
+      website: https://runitup.com
+      tools: HTML/CSS, Node, Socket.io
+
+- meta:
+    type: personal
+    id: 2
+    start: Jan 2020
+    end: Feb 2020
+  name: Baby Faith
+  summary: A conversational chatbot by Ryan Kuo, commissioned by Rhizome and Jigsaw
+  description: A conversational chatbot by Ryan Kuo, commissioned by Rhizome and Jigsaw
+  subProjects:
+    - name: BabyFaith.com
+      description: This is a project for momentum
+      website: https://rhizome.com
+      tools: React, IBM Watson
+
+- meta:
+    type: personal
+    id: 3
+    start: Mar 2019
+    end: Jun 2020
+  name: Summer Smash
+  summary: The official festival app for The Summer Smash’s 40,000 attendees
+  description: The official festival app for The Summer Smash’s 40,000 attendees
+  subProjects:
+    - name: The Summer Smash App
+      description: This is a project for momentum
+      website: https://thesummersmash.com
+      tools: React Native, Echo
+    - name: TheSummerSmash.com
+      description: HTML/CSS
+      website: https://thesummersmash.com
+      tools: HTML/CSS
+
+- meta:
+    type: personal
+    id: 4
+    start: Mar 2017
+    end: Present
+  name: Lyrical Lemonade
+  summary: The official home of Lyrical Lemonade’s blog
+  description: Lyrical Lemonade is a multi-media company specializing in music videos, live events, exclusive content, merchandise and plenty more. With over 6 billion views, 15 million YouTube subscribers, and millions of followers across social media platforms, Lyrical has grown to be a powerhouse in the music industry.
+  subProjects:
+    - name: LyricalLemonade.com
+      description: Jeff recently spearheaded web optimization efforts by implementing responsive image rendering, lazy loading, and more to result in a Lighthouse performance score above 80.
+      website: https://lyricallemonade.com
+      tools: React, WordPress
+
+- meta:
+    type: personal
+    id: 5
+    start: Aug 2020
+    end: Dec 2020
+  name: Hartford
+  summary: The website for the Hartford lifestyle brand
+  description: The website for the Hartford lifestyle brand
+  subProjects:
+    - name: Hartford.com
+      description: This is a project for momentum
+      website: https://hartford.com
+      tools: HTML/CSS, Shopify's Liquid
+
+- meta:
+    type: professional
+    id: 6
+    start: Aug 2019
+    end: Present
+    location: San Jose, CA
+  name: Cisco Systems, Inc.
+  summary: The website for the Hartford lifestyle brand
+  description: The website for the Hartford lifestyle brand
+  subProjects:
+    - name: Momentum UI
+      description: This is a project for momentum
+      website: https://momentum.design
+      tools: React, SCSS
+    - name: Cisco Headsets App
+      description: This is a project for the cisco headsets app
+      website: https://momentum.design
+      tools: Flutter
+
+- meta:
+    type: professional
+    id: 7
+    start: May 2018
+    end: Present
+    location: Global
+  name: Dial Up Digital
+  summary: The website for the Hartford lifestyle brand
+  description: The website for the Hartford lifestyle brand
+
+- meta:
+    type: professional
+    id: 8
+    start: May 2018
+    end: Sep 2018
+    location: Boston, MA
+  name: Promazo
+  summary: The website for the Hartford lifestyle brand
+  description: The website for the Hartford lifestyle brand
+  subProjects:
+    - name: Unilever Gross Margin Optimizer
+      description: This is a project for momentum
+      tools: React, Typescript
