@@ -14,8 +14,10 @@ module.exports = {
     twitterUsername: '@jeffreybirori',
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     'gatsby-transformer-yaml',
     'gatsby-plugin-react-helmet',
+    `gatsby-transformer-remark`,
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
