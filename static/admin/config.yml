@@ -2,6 +2,13 @@ backend:
   name: github
   repo: jbirori/personal-site
   branch: main
+  commit_messages:
+    create: Created a new {{collection}} item “{{slug}}”
+    update: Updated the {{collection}} item “{{slug}}”
+    delete: Deleted the {{collection}} item “{{slug}}”
+    uploadMedia: Uploaded a new asset “{{path}}”
+    deleteMedia: Deleted the asset “{{path}}”
+    openAuthoring: '{{message}}'
 
 media_folder: content/assets
 public_folder: /assets
@@ -15,7 +22,8 @@ collections:
       - { name: title, label: Title }
       - { name: start, label: Start }
       - { name: end, label: End }
-      - { name: professional, label: Professional, widget: boolean }
+      - { name: path, label: Path }
+      - { name: professional, label: Professional, widget: boolean, default: false }
       - { name: summary, label: Summary, widget: text }
       - { name: description, label: Description, widget: text }
       - name: subProjects
@@ -26,3 +34,32 @@ collections:
           - { name: description, label: Description, widget: text }
           - { name: websiteUrl, label: Website URL }
           - { name: tools, label: Tools }
+  
+  - name: ownerInfo
+    label: Owner Info
+    files:
+      - name: about
+        label: About
+        file: content/about
+        fields:
+          - { name: name, label: Name, default: John Smith }
+          - { name: bio, label: Bio, widget: text }
+          - name: education
+            label: Education
+            widget: list
+            fields:
+              - { name: degree, label: Degree }
+              - { name: school, label: School }
+          - name: contact
+            label: Contact
+            widget: list
+            fields:
+              - { name: title, label: Title }
+              - { name: label, label: Label }
+              - { name: url, label: URL }
+          - name: skills
+            label: Skills
+            widget: list
+            fields:
+              - { name: title, label: Title }
+              - { name: skills, label: Skills }
